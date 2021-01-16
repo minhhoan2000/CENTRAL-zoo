@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>CENTRAL zoo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link href="register/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+ <!-- start logo -->
+ <header role="banner">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand absolute" href="index.html"><img src="img/logo.png" width="15%"
+          style="padding-right: 10px;">CENTRAL zoo</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- start nav -->
+      <div class="collapse navbar-collapse" id="navbarsExample05" style="margin-left: 10em;padding-top: 15px;">
+        <ul class="navbar-nav mx-auto pl-lg-5 pl-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="gallery.html">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" data-target="#login" data-toggle="modal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- END header -->
+<!-- END header -->
+  <!-- start log in -->
+  <div id="login" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-body">
+          <button data-dismiss="modal" class="close">&times;</button>
+          <h4>Login</h4>
+          <form method="post" name="loginform">
+            <input type="text" Name="Username" placeholder="Username" id="username" required>
+            <input type="password" id="password" Name="Password" placeholder="Password" required>
+            <br>
+            <button type="button" id="btn_login" class="btn btn-success btn-sm" value="LOGIN"
+              onclick="Wefunction()">Login</button>
+            <br>
+
+            <input type="checkbox" id="brand1" value="">
+            <label><span></span>Remember me</label>
+            <br>
+            <a href="mailto:info@patrona.com?subject=Forgot Password
+            &body=Please send me new Password!">Forgot password?</a>
+          
+            <div class="aitssendbuttonw3ls"></div>
+            <p> <a class="w3_play_icon1" href="register.html">
+                Register new account</a></p>
+            <div class="clear"></div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--Trigger-->
+
+  <section class="home-slider owl-carousel">
+    <div class="slider-item" style="background-image: url('img/6.jpg');">
+
+      <div class="container">
+        <div class="row slider-text align-items-center justify-content-center">
+          <div class="col-md-8 text-center col-sm-12 element-animate">
+            <h1>A library of zoo Breeds</h1>
+            <p class="mb-5"> How to know more about your four leg friend? How to know more zoo breeds?
+              <br> Good new, we have a big library hear! <br> For each breed you can find out more about their history
+              and personality, location, etc. From giant zoo breeds that offer plenty more pup to love to adorable toy
+              types, our extensive zoo breed library covers various types and categories. Let's explore together!</p>
+            <p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!-- END slider -->
+
+
+
+  <div class="container">
+    <!-- <div class="loc" style="text-align:center; padding-top: 3em;">
+      <h1>All zoo Breeds</h1>
+    </div> -->
+    <!-- start zoo breed content -->
+    <div class="crumblink">
+      <p><a href="javascript:history.back()">Back to Animals zoo</a></p>
+    </div>
+    <hr>
+    <!-- start main content -->
+
+    <div class="row " style="margin:auto">
+      <div class="container align-content-center align-items-center" id="content_item_detail">
+
+        <h2 id="zoo_name" style="text-align: center;"></h2>
+
+        <table class="table table-borderless  table-responsive">
+          <thead>
+            <tr>
+              <th colspan="2" id="zoo_pic"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Origin</td>
+              <td id="zoo_origin"></td>
+            </tr>
+            <tr>
+              <td>Animals</td>
+              <td id="zoo_Animals"></td>
+            </tr>
+            <tr>
+              <td>Color</td>
+              <td id="zoo_color"></td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td id="zoo_type"></td>
+            </tr>
+            <tr>
+              <td>Breed Group</td>
+              <td id="zoo_breedgroup"></td>
+            </tr>
+           
+            <tr>
+              <td>Temperament</td>
+              <td id="zoo_temperament"></td>
+            </tr>
+            <tr>
+              <td>Height</td>
+              <td id="zoo_height"></td>
+            </tr>
+            <tr>
+              <td>Weight</td>
+              <td id="zoo_weight"></td>
+            </tr>
+            <tr>
+              <td>Geography</td>
+              <td id="zoo_geography"></td>
+            </tr>
+            <tr>
+              <td>Overview</td>
+              <td id="zoo_overview"> </td>
+            </tr>
+            <tr>
+              <td>History</td>
+              <td id="zoo_history"> </td>
+            </tr>
+            <tr>
+              <td>Gallery</td>
+              <td id="zoo_galary"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end zoo breed content -->
+
+
+
+
+  <!-- start footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3>About CENTRAL zoo</h3>
+          <p class="mb-5">This is website of a veteran want to share about all zoos she has met and research on. This is
+            also a location for person love zoos and has desire to explore more about this creature.</p>
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+
+        </div>
+        <div class="col-md-5 mb-5">
+          <h3>Contact Info</h3>
+          <ul class="list-unstyled footer-link">
+            <li class="d-block">
+              <span class="d-block">Address:</span>
+              <span class="text-white">10749 NW Ambassador Drive
+                Kansas City, MO 64153 USA</span></li>
+            <li class="d-block"><span class="d-block">Telephone:</span><span class="text-white">+1 6500 4242</span>
+            </li>
+            <li class="d-block"><span class="d-block">Email:</span><span class="text-white">info@patrona.com</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3>Quick Links</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breed.html">zoo Breeds</a></li>
+            <li><a href="puppy_care.html">Puppy Care</a></li>
+            <li><a href="FAQs.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made by
+            2002.E0 Group4.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#f4b214" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="json/data_zoo.js"></script>
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const zoo_id = urlParams.get('id');
+    const zoo_detail = data_zoo.filter(doc => doc.Galary == zoo_id).pop();
+    console.log(zoo_detail)
+    if (zoo_detail) {
+      $("#zoo_name").text(zoo_detail.Name);
+      $("#zoo_Animals").text(zoo_detail.Animals);
+      $("#zoo_color").text(zoo_detail.Color);
+      $("#zoo_type").text(zoo_detail.Type);
+      $("#zoo_origin").text(zoo_detail.Origin);
+      $("#zoo_breedgroup").text(zoo_detail.Breed_Group);
+      $("#zoo_character").text(zoo_detail.Character);
+      $("#zoo_temperament").text(zoo_detail.Temperament);
+      $("#zoo_height").text(zoo_detail.Height);
+      $("#zoo_weight").text(zoo_detail.Weight);
+      $("#zoo_geography").text(zoo_detail.Geography);
+      $("#zoo_overview").text(zoo_detail.Overview).css('text-align', 'justify');;
+      $("#zoo_history").text(zoo_detail.History).css('text-align', 'justify');
+      $('#zoo_galary').html('<img src="img/zoo/' + zoo_detail.Galary + '" />');
+
+    }
+  </script>
+  <script>
+    function Wefunction() {
+    var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username == null || username == "") {
+            alert("Please enter the username.");
+            return false;
+        }
+        if (password == null || password == "") {
+            alert("Please enter the password.");
+            return false;
+        }
+        else{alert('Login Succes! \nLets explore the website more!');
+        document.location = 'index.html'}     
+  }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</body>
+
+</html>

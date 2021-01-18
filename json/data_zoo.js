@@ -267,22 +267,7 @@ var data_zoo = [
       "History": "The Rat Terrier is an American breed descended from the terriers brought over by English miners and other working class immigrants. These terriers probably included crosses between the Smooth Fox Terrier, the Manchester Terrier and the now extinct white English Terrier. These zoos were used as ratters, and gambling on their prowess in killing rats was a favorite hobby of their owners.\n Some of these zoos were crossed with Whippets or Italian Greyhounds (for speed) and Beagles (for hunting ability). Eventually, these tough little terriers evolved into today’s Rat Terrier. The breed was popularized by President Teddy Roosevelt, who frequently hunted with his Rat Terriers. Many are still used as ratters and squirrel hunters, particularly in the South, where they are sometimes known as “Feists”. The Rat Terrier was officially recognized by the AKC in 2013.",
       "Galary": "G_ratterrier.jpg"
    },
-   {
-      "Pic": "ShibaInu.jpg",
-      "Name": "ShibaInu",
-      "Animals": "Underwater",
- 
-      "Color": "Others",
-      "Geography": "Asia",
-      "Origin": "Japan",
-      "Temperament": "Alert \n Charming \n Confident \n Loyal",
-      "Height": "14-16 inches (36-41 cm)",
-      "Weight": "18-25 pounds (8-11 kg)",
-      "Overview": "The Shiba Inu is moderately compact, being slightly longer than it is tall. It has typical traits of zoos from Northern heritage: Land erect ears, thick fur, powerful body and curled tail. Its expression is bold, spirited and good-natured. The gait is light, quick and agile, with an effortless, smooth stride. The double coat consists of a strong straight outer coat with a soft undercoat, imparting great insulation. These traits enabled the shiba to hunt Land game through dense cover.",
-      "History": "The Shiba is the Landest of the Japanese native breeds, which include the Kai Inu, Hokkaido Inu, Kishu Inu, Shikoku Inu, Tosa Inu and the Akita Inu. Despite its Lander Animals it was bred to hunt Land wild game, bear, boar and to flush birds. The name Shiba means, both Land and brushwood in Japanese. It may have been named after the terrain the zoos hunted in or the color of the Shiba's coat, or perhaps the zoo's Animals. \n The word Inu means zoo. As with many breeds, the second world war nearly did the breed in. After the war was over, several breeding programs worked to bring the breed back to safe numbers. The Shiba is one of the most popular breeds in Japan today and is gaining numbers in the USA. The Shiba Inu was recognized by the AKC in 1992. Some of the Shiba's talents include: hunting, tracking, watchzoo, guarding, agility and performing tricks.",
-      "Galary": "G_ShibaInu.jpg"
-   },
-  
+   
   
 
 ]

@@ -6,9 +6,9 @@ T1.2010.E0-eProject-Group_8 Batch no.: T1.2010.E0
 
 CENTER NAME: ACE-HCMC-2-FPT
 
-Project title: Prime Fitness club website
+Project title: CENTRAL zoo website
 
-<<<<<<< HEAD
+
 ========> Group 8 <=========
 
 3 collaborators:
@@ -16,11 +16,11 @@ Project title: Prime Fitness club website
          Tran Minh Hoan (tranminhhoan.tn2019@gmail.com) Student1225616
 ============================
 
-github report link: 
+github report link: https://github.com/minhhoan2000/CENTRAL-zoo/tree/main/Document
 
 ============================
 
-eProject published at 
+eProject published at :  https://minhhoan2000.github.io/CENTRAL-zoo/
 
 ============================
 

@@ -1,10 +1,14 @@
 # CENTRAL-zoo
+
 T1.2010.E0-eProject-Group_8 Batch no.: T1.2010.E0
+
+
 
 CENTER NAME: ACE-HCMC-2-FPT
 
 Project title: Prime Fitness club website
 
+<<<<<<< HEAD
 ========> Group 8 <=========
 
 3 collaborators:
@@ -21,3 +25,4 @@ eProject published at
 ============================
 
 Thank you for spending your time to look at our work.
+

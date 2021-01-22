@@ -11,7 +11,7 @@ Project title: CENTRAL zoo website
 
 ========> Group 8 <=========
 
-3 collaborators:
+1 collaborators:
 
          Tran Minh Hoan (tranminhhoan.tn2019@gmail.com) Student1225616
 ============================

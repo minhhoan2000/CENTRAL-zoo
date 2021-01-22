@@ -157,10 +157,6 @@
               <td>Animals</td>
               <td id="zoo_Animals"></td>
             </tr>
-            <tr>
-              <td>Color</td>
-              <td id="zoo_color"></td>
-            </tr>
            
            
            
@@ -168,14 +164,7 @@
               <td>Temperament</td>
               <td id="zoo_temperament"></td>
             </tr>
-            <tr>
-              <td>Height</td>
-              <td id="zoo_height"></td>
-            </tr>
-            <tr>
-              <td>Weight</td>
-              <td id="zoo_weight"></td>
-            </tr>
+           
             <tr>
               <td>Geography</td>
               <td id="zoo_geography"></td>
@@ -184,10 +173,7 @@
               <td>Overview</td>
               <td id="zoo_overview"> </td>
             </tr>
-            <tr>
-              <td>History</td>
-              <td id="zoo_history"> </td>
-            </tr>
+            
             <tr>
               <td>Gallery</td>
               <td id="zoo_galary"></td>
@@ -280,17 +266,13 @@
     if (zoo_detail) {
       $("#zoo_name").text(zoo_detail.Name);
       $("#zoo_Animals").text(zoo_detail.Animals);
-      $("#zoo_color").text(zoo_detail.Color);
       $("#zoo_type").text(zoo_detail.Type);
       $("#zoo_origin").text(zoo_detail.Origin);
-      $("#zoo_breedgroup").text(zoo_detail.Breed_Group);
-      $("#zoo_character").text(zoo_detail.Character);
       $("#zoo_temperament").text(zoo_detail.Temperament);
-      $("#zoo_height").text(zoo_detail.Height);
-      $("#zoo_weight").text(zoo_detail.Weight);
+     
       $("#zoo_geography").text(zoo_detail.Geography);
       $("#zoo_overview").text(zoo_detail.Overview).css('text-align', 'justify');;
-      $("#zoo_history").text(zoo_detail.History).css('text-align', 'justify');
+ 
       $('#zoo_galary').html('<img src="img/zoo/' + zoo_detail.Galary + '" />');
 
     }
